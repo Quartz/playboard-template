@@ -1,2 +1,4 @@
 # playboard-template
-This is a template for the playboard we use to user test interactive audio experiences.
+We created this simple board to facilitate user testing for interactive audio experiences.
+
+
