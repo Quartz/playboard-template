@@ -1,0 +1,149 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>User Testing Board</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <style>
+      h1{
+        text-align: left;
+        padding: 1em;
+        font-family: "AdelleBold", "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        color: #333;
+
+      }
+      .section-head{
+        font-family: "AdelleBold", "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: 006aa4;
+        font-weight: bold;
+        line-height: 15px;
+        margin-top: 10px;
+      }
+      p{
+        font-size: 20px;
+        font-family: "PT Serif", Georgia, serif;
+        line-height: 30px;
+        color: #4c4c4c;
+      }
+      section{
+        padding-bottom: 2em;
+      }
+      .shade{
+        background-color: #F2F2F2;
+      }
+    </style>
+    <link href='https://cdn.knightlab.com/libs/soundcite/latest/css/player.css' rel='stylesheet' type='text/css'><script type='text/javascript' src='https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js'></script>
+  </head>
+  <body>
+    <header class="row">
+      <h1>Play Board Template - Alexa</h1>
+    </header>
+
+<!--INTRO AND TOOLS-->
+    <section class="row shade">
+      <div class="row">
+        <div class="small-3 columns">
+          <h3 class="section-head">
+            Introduction
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-3 columns">
+          <p><span class="soundcite" data-url="sample_audio/alexa-sample.mp3" data-start="0" data-plays="1">
+            Alexa says hello
+          </span></p>
+        </div>
+        <div class="small-3 columns">
+          <p><span class="soundcite" data-url="sample_audio/error-sample.mp3" data-start="0" data-plays="1">
+            Error message
+          </span></p>
+        </div>
+        <div class="small-3 columns">
+          <p><span class="soundcite" data-url="sample_audio/timeout.mp3" data-start="0" data-plays="1">
+            Timeout message
+          </span></p>
+        </div>
+        <div class="small-3 columns">
+          <p></p>
+        </div>
+      </div>
+    </section>
+
+
+<!--QUESTION ONE-->
+    <section class="row">
+      <div class="row">
+        <div class="small-3 columns">
+          <h3 class="section-head">
+            Branch 1
+          </h3>
+        </div>
+        <div class="small-3 columns">
+          <h3 class="section-head">
+            [user response]
+          </h3>
+        </div>
+        <div class="small-3 columns">
+          <h3 class="section-head">
+            Response confirmation
+          </h3>
+        </div>
+        <div class="small-3 columns">
+          <h3 class="section-head">
+            Content
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-3 columns">
+          <p><span class="soundcite" data-url="sample_audio/alexa-intro.mp3" data-start="0" data-plays="1">
+            Alexa launches this module with a question
+          </span></p>
+        </div>
+        <div class="small-3 columns">
+          <p><em>user responds with "yes" or "no"</em></p>
+        </div>
+        <div class="small-3 columns">
+          <p><span class="soundcite" data-url="sample_audio/yes-response.mp3" data-start="0" data-plays="1">
+            Yes response
+          </span></p>
+          <p><span class="soundcite" data-url="sample_audio/no-response.mp3" data-start="0" data-plays="1">
+            No response
+          </span></p>
+        </div>
+        <div class="small-3 columns">
+          <p><span class="soundcite" data-url="sample_audio/creepy-whisper.mp3" data-start="0" data-plays="1">
+            Alexa tells you how she's feeling
+          </span></p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--OUTRO -->
+        <section class="row shade">
+          <div class="row">
+            <div class="small-3 columns">
+              <h3 class="section-head">
+                Outro (Goodbye Message)
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-3 columns">
+              <p><span class="soundcite" data-url="sample_audio/goodbye.mp3" data-start="0" data-plays="1">
+                Alexa says goodbye
+              </span></p>
+            </div>
+          </div>
+        </section>
+
+  </body>
+</html>
